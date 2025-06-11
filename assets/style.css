@@ -222,6 +222,7 @@ h1, h2, h3 {
   text-align: center;
   font-size: 2rem;
   color: var(--green);
+  margin-bottom: 15px;
 }
 
 .carousel-heading small {
@@ -239,7 +240,7 @@ h1, h2, h3 {
 
 .carousel img {
   width: 100%; /* Prend toute la largeur */
-  height: auto; /* Ajuste la hauteur automatiquement */
+  min-height: 470px; /* Ajuste la hauteur automatiquement */
   object-fit: cover; /* Garde le ratio d'aspect */
 }
 
@@ -349,7 +350,7 @@ h1, h2, h3 {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: var(--brown);
+  background: #E6E3CE;
   color: var(--text-light);
   padding: 2rem 1rem;
   margin-top: 4rem;
