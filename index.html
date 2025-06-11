@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terre d'Espoir</title>
+
+  <!-- Feuilles de style et scripts externes -->
+  <link rel="stylesheet" href="assets/style.css" />
+  <script type="module" src="assets/main.js"></script>
+
+  <!-- Google Fonts & Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- Styles internes supplémentaires pour le prototype -->
+
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header__container">
+      <!-- Logo (image) -->
+      <a href="#accueil" class="logo" aria-label="Terre d’Espoir">
+        <img src="assets/Images/LOGO-terre-despoir-police-ok.png" alt="Logo Terre d’Espoir" width="48" height="48" />
+      </a>
+
+      <!-- Navigation desktop -->
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#amenagement">Aménagement de peine</a></li>
+          <li><a href="#intentions">Intentions</a></li>
+          <li><a href="#entree">Comment y entrer&nbsp;?</a></li>
+        </ul>
+      </nav>
+
+      <!-- Burger mobile -->
+      <button class="nav-toggle" aria-label="Ouvrir le menu">
+        <span class="material-icons">menu</span>
+      </button>
+    </div>
+
+    <!-- Navigation mobile (overlay) -->
+    <nav class="nav-mobile hidden" aria-label="Menu mobile">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#amenagement">Aménagement de peine</a></li>
+        <li><a href="#intentions">Intentions</a></li>
+        <li><a href="#entree">Comment y entrer&nbsp;?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== BRANDING SECTION (nouvelle section) ===== -->
+  <section class="hero" id="brand">
+    <img src="assets/Images/head.jpg" alt="Image conceptuelle Terre d’Espoir" loading="lazy" />
+    <div class="hero-content">
+      <h2>Terre d’Espoir</h2>
+      <p>cultiver la terre semée des secondes chances</p>
+    </div>
+  </section>
+
+  <!-- ===== HERO ===== -->
+  <!-- ===== CAROUSEL ===== -->
+  <section class="carousel container" id="lieu-vivant">
+    <h2 class="carousel-heading">
+      Un lieu vivant, à taille humaine
+      <small>On prépare la liberté intérieure comme on prépare un sol fertile</small>
+    </h2>
+    <div class="carousel-track">
+      <div class="carousel-item">
+        <img src="assets/Images/wheat-2549245_1920 (2)518.jpg" alt="Vue de la ferme" />
+        <div class="carousel-caption">
+          <h3>Une ferme, une histoire</h3>
+          <p>Un lieu chargé de mémoire, réhabilité pour accueillir, cultiver et transmettre.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Images/farm-6788020_1920 (1).jpg" alt="Travail dans les champs" />
+        <div class="carousel-caption">
+          <h3>Une réinsertion humaine</h3>
+          <p>Apprendre à vivre ensemble, se reconnecter. Reprendre sa place dans la société.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Images/agriculture-2382186_1920 (1).jpg" alt="Moment de réinsertion collective" />
+        <div class="carousel-caption">
+          <h3>Les tâches du quotidien</h3>
+          <p>Jardin, soin aux animaux, entretien... Retrouver un rythme, un lien, une responsabilité.</p>
+        </div>
+      </div>
+    </div>
+    <div class="dots"></div>
+  </section>
+
+  
+
+  <!-- ===== QUOTE ===== -->
+  <section class="quote">
+    <img src="https://placehold.co/1600x700" alt="Paysage vallonné agricole pour Terre d’Espoir" loading="lazy" />
+    <div class="hero-content">
+      <p>On ne juge pas. On cultive.</p>
+    </div>
+  </section>
+
+  <!-- ===== GRID SECTION (Aménagement / Intentions ...) ===== -->
+  <section class="grid-3 container" id="amenagement">
+    <div>
+      <h2>Accueil</h2>
+      <p>Ici, on accueille des personnes en fin de peine pour les aider à préparer leur retour à la vie en société…</p>
+    </div>
+    <div>
+      <h2>Aménagement de peine</h2>
+      <p>Ce lieu fonctionne sous le régime du placement extérieur&nbsp;: les personnes y viennent avant la fin de leur peine…</p>
+    </div>
+    <div>
+      <h2>Intentions</h2>
+      <p>Ce projet est né d’un besoin réel&nbsp;: offrir une <strong>seconde chance</strong> dans un cadre humain…</p>
+    </div>
+    <div>
+      <h2>Comment y entrer&nbsp;?</h2>
+      <p>Les candidatures peuvent venir directement des <strong>personnes détenues</strong>, ou via le <strong>SPIP</strong>…</p>
+    </div>
+  </section>
+
+  <!-- ===== HOURS SECTION ===== -->
+  <section class="hours" id="horaires">
+    <img src="https://placehold.co/1600x400?text=Ferme+au+coucher+de+soleil" alt="Ferme Terre d’Espoir au coucher de soleil" loading="lazy" />
+    <div class="hours-content">
+      <h2>Horaires d’ouverture</h2>
+      <div class="hours-table" aria-label="Tableau des horaires">
+        <p><strong>Mercredi&nbsp;:</strong> 15&nbsp;h – 18&nbsp;h</p>
+        <p><strong>Vendredi&nbsp;:</strong> 15&nbsp;h – 18&nbsp;h</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__grid container">
+      <div>
+        <h3>À propos</h3>
+        <p>Terre d’Espoir est un lieu de transition vers la liberté.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><span class="material-icons">location_on</span> 56660 Saint‑Jean‑de‑Brévelay<br />
+          <span class="material-icons">phone</span> 02&nbsp;99&nbsp;00&nbsp;00&nbsp;00<br />
+          <span class="material-icons">mail</span> contact@terredespoir.org
+        </p>
+      </div>
+      <div>
+        <h3>Liens</h3>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">Gestion légale</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
