@@ -237,9 +237,10 @@ h1, h2, h3 {
 }
 
 .carousel img {
-  width: 100%; /* Prend toute la largeur */
+  width: 97%; /* Prend toute la largeur */
   height: auto;
   min-height: 470px; /* Ajuste la hauteur automatiquement */
+  margin-left: 20px;
   object-fit: cover; /* Garde le ratio d'aspect */
   display: block;
 }
@@ -261,13 +262,14 @@ h1, h2, h3 {
 
 .carousel-caption h3 {
   margin-bottom: .5rem;
-  font-size: 1.75rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .carousel-caption p {
-  font-size: 1.125rem;
+  font-size: 1.9rem;
   margin-top: .5rem;
+  font-weight: bold;
 }
 
 .dots {

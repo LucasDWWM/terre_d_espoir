@@ -15,11 +15,11 @@ Released On: 8, Sep 2019
 	right: 0;
 	bottom: 0;
 	width: 260px;
-	height: 230px;
+	height: 292px;
 	letter-spacing: 0.1px;
 	border-radius: 7px 0 0 5px;
 	box-shadow: -2px 0px 5px rgba(68, 68, 68, 0.59);
-	font-family: 'Poiret One,  Roboto, Montserrat' sans-serif;
+	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	z-index: 9999;
 }
 
