@@ -1,7 +1,7 @@
 :root {
   --green: #556B2F;
   --green-light: #8FA66B;
-  --brown: #8D6E63;
+  --brown: #805B48;
   --beige: #F5F5F5;
   --text-dark: #333;
   --text-light: #fff;
@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poiret One' sans-serif;
   color: var(--text-dark);
   line-height: 1.6;
   background: var(--beige);
@@ -34,8 +34,12 @@ a {
   color: inherit;
 }
 
+p {font-family: 'Poiret One';}
+
+.montserrat{font-family: 'Montserrat';}
+
 h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poiret One' , 'Montserrat' , 'Roboto', sans-serif;
   font-weight: 500;
 }
 
@@ -178,7 +182,7 @@ h1, h2, h3 {
 
 .hero p {
   max-width: 700px;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* ===== QUOTE (image + slogan) ===== */
@@ -215,23 +219,17 @@ h1, h2, h3 {
 .carousel {
   position: relative;
   overflow: hidden; /* Masque les images qui débordent */
+  width: 100%;
   margin-block: 3rem;
 }
 
 .carousel-heading {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--green);
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
-.carousel-heading small {
-  display: block;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-top: .5rem;
-  color: var(--text-dark);
-}
 
 .carousel-track {
   display: flex;
@@ -240,8 +238,10 @@ h1, h2, h3 {
 
 .carousel img {
   width: 100%; /* Prend toute la largeur */
+  height: auto;
   min-height: 470px; /* Ajuste la hauteur automatiquement */
   object-fit: cover; /* Garde le ratio d'aspect */
+  display: block;
 }
 
 .carousel-item {
@@ -307,6 +307,7 @@ h1, h2, h3 {
   font-size: 1.5rem;
   color: var(--green);
   margin-bottom: .5rem;
+  font-weight: bold;
 }
 
 /* ===== HOURS SECTION ===== */
@@ -334,18 +335,21 @@ h1, h2, h3 {
 }
 
 .hours-content h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hours-table {
+  display: flex;
   background: rgba(0, 0, 0, .4);
-  padding: 1rem 2rem;
+  padding: 2rem 7rem;
   border-radius: var(--radius);
 }
 
 .hours-table p {
   margin: .25rem 0;
+  margin-left: 15px;
+  font-size: 25px;
 }
 
 /* ===== FOOTER ===== */
@@ -365,10 +369,23 @@ h1, h2, h3 {
   font-size: 1.25rem;
   margin-bottom: .5rem;
   color: var(--green-light);
+  font-weight: bold;
 }
 
 .footer a {
-  color: var(--text-light);
+  font-family: 'Poiret One';
+  color: var(--brown);
+  font-weight: bold;
+}
+
+li::marker {
+  color: #E6E3CE;
+}
+
+.material-icons{
+  color: var(--brown);
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 /* ===== MEDIA ===== */
@@ -386,7 +403,7 @@ h1, h2, h3 {
   }
 
   .grid-3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer__grid {
@@ -417,7 +434,7 @@ h1, h2, h3 {
 
   .footer h3::after {
     content: '_expand_more';
-    font-family: 'Material Icons';
+    font-family: 'Roboto' sans-serif;
     margin-left: .25rem;
     font-size: 1rem;
     vertical-align: middle;

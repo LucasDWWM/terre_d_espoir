@@ -7,13 +7,16 @@
 
   <!-- Feuilles de style et scripts externes -->
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/color-ctc.css">
   <script type="module" src="assets/main.js"></script>
 
-  <!-- Google Fonts & Material Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Click To Call Custom Style-1 CSS  (required) -->
+   <link rel="stylesheet" type="text/css" href="assets/call-style3.css"/>
 
-  <!-- Styles internes supplémentaires pour le prototype -->
+  <!-- Google Fonts & Material Icons -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -66,7 +69,6 @@
   <section class="carousel container" id="lieu-vivant">
     <h2 class="carousel-heading">
       Un lieu vivant, à taille humaine
-      <small>On prépare la liberté intérieure comme on prépare un sol fertile</small>
     </h2>
     <div class="carousel-track">
       <div class="carousel-item">
@@ -108,29 +110,41 @@
   <section class="grid-3 container" id="amenagement">
     <div>
       <h2>Accueil</h2>
-      <p>Ici, on accueille des personnes en fin de peine pour les aider à préparer leur retour à la vie en société…</p>
+      <p class="montserrat">Ici, on accueille des personnes en fin de peine pour les <strong>aider</strong> à préparer leur retour à la <strong>vie en société</strong>. 
+        Pendant 6 à 12 mois, les résidents vivent dans un cadre <strong>paisible</strong>, <strong>humain</strong> et <strong>structurant</strong>. 
+        Ils retrouvent un <strong>quotidien</strong> simple : des repas partagés, des discussions, des activités collectives. 
+        C’est un temps pour se poser, se reconnecter, réapprendre à <strong>vivre</strong> avec les autres.</p>
     </div>
     <div>
       <h2>Aménagement de peine</h2>
-      <p>Ce lieu fonctionne sous le régime du placement extérieur&nbsp;: les personnes y viennent avant la fin de leur peine…</p>
+      <p class="montserrat">Ce lieu fonctionne sous le régime du placement extérieur : les personnes viennent ici avant la fin de leur peine, avec l’accord du <strong>juge</strong>. 
+        L’objectif : éviter les sorties « <strong>sèches</strong> » et proposer un passage progressif vers la <strong>liberté</strong>. 
+        On y travaille la responsabilisation, la reconstruction personnelle, la gestion du quotidien. 
+        Sortir de prison, c’est aussi retrouver <strong>confiance</strong> — dans <strong>soi</strong>, dans les <strong>autres</strong>, dans <strong>l’avenir</strong>.</p>
     </div>
     <div>
       <h2>Intentions</h2>
-      <p>Ce projet est né d’un besoin réel&nbsp;: offrir une <strong>seconde chance</strong> dans un cadre humain…</p>
+      <p class="montserrat">Ce projet est né d’un besoin : celui d’offrir une <strong>seconde chance</strong>, concrète et humaine. 
+        Il repose sur l’idée qu’un environnement <strong>stable</strong>, ancré dans la nature, aide à se <strong>reconstruire</strong>. 
+        Ici, chaque résident participe à la vie collective, apprend, crée, transmet. 
+        La ferme devient un espace de soin, de travail, et surtout de <strong>transformation</strong>.</p>
     </div>
     <div>
       <h2>Comment y entrer&nbsp;?</h2>
-      <p>Les candidatures peuvent venir directement des <strong>personnes détenues</strong>, ou via le <strong>SPIP</strong>…</p>
+      <p class="montserrat">Les <strong>candidatures</strong> peuvent venir directement des <strong>personnes détenues</strong>, ou via le <strong>SPIP</strong> (service pénitentiaire d’insertion et de probation). 
+        Un premier échange en détention est suivi d’une visite du lieu. C’est ensuite au juge d’application des peines de valider l’intégration. 
+        Tout au long du <strong>séjour</strong>, les résidents sont accompagnés dans leurs démarches de <strong>santé</strong>, <strong>d’identité</strong>, de <strong>logement</strong> et <strong>d’emploi</strong>.</p>
     </div>
   </section>
 
   <!-- ===== HOURS SECTION ===== -->
   <section class="hours" id="horaires">
-    <img src="assets/Images/Image-9-Pexels-John-Lambeth.jpeg" alt="Ferme Terre d’Espoir au coucher de soleil" loading="lazy" />
+    <img src="assets/Images/a37e233aadec8ff1f70e7228ad325d94.jpg" alt="Ferme Terre d’Espoir au coucher de soleil" loading="lazy" />
     <div class="hours-content">
       <h2>Horaires d’ouverture</h2>
       <div class="hours-table" aria-label="Tableau des horaires">
         <p><strong>Mercredi&nbsp;:</strong> 15&nbsp;h – 18&nbsp;h</p>
+        <p>|</p>
         <p><strong>Vendredi&nbsp;:</strong> 15&nbsp;h – 18&nbsp;h</p>
       </div>
     </div>
@@ -141,13 +155,13 @@
     <div class="footer__grid container">
       <div>
         <h3>À propos</h3>
-        <p>Terre d’Espoir est un lieu de transition vers la liberté.</p>
+        <p class="material-icons">Terre d’Espoir est un lieu de transition vers la liberté.</p>
       </div>
       <div>
         <h3>Contact</h3>
-        <p><span class="material-icons">location_on</span> 56660 Saint‑Jean‑de‑Brévelay<br />
-          <span class="material-icons">phone</span> 02&nbsp;99&nbsp;00&nbsp;00&nbsp;00<br />
-          <span class="material-icons">mail</span> contact@terredespoir.org
+        <p><span class="material-icons">Adresse : 56660 Saint‑Jean‑de‑Brévelay</span> <br />
+          <span class="material-icons">Téléphone : XX&nbsp;XX&nbsp;XX&nbsp;XX&nbsp;XX</span><br />
+          <span class="material-icons">Email : contact@terredespoir.org</span>
         </p>
       </div>
       <div>
@@ -160,5 +174,42 @@
       </div>
     </div>
   </footer>
+<!-- Footer END -->
+
+
+<!-- Click To Call Container -->
+<div class="cc-style3" style="right: -260px;">
+	<!-- Click To Call Button -->
+	<div class="cc-button inOut">
+		<i class="fa fa-phone"></i>
+	</div>
+	
+	<!-- Start Floating Panel Container -->
+	<div class="cc-panel">			
+		<!-- Panel Content -->
+		<div class="cc-header">
+			<img src="assets/Images/LOGO-terre-despoir-police-ok.png" alt="LOGO CTC">
+			<h2>Terre d'Espoir</h2>
+			<p>cultiver la terre semée des secondes chances</p>
+		</div>
+		<div class="cc-footer">
+			<a href="" class="cc-call-button">XX XX XX XX</a>
+		</div>
+		<div class="cc-footer2">
+			<a href="#entree" class="cc-call-button">Contact</a>
+		</div>
+	</div>
+	<!--/ End Floating Panel Container -->
+
+</div>
+<!--/ End Click To Call Container -->
+
+<!-- jQuery Library -->
+<script src="assets/jquery.min.js"></script>
+<!-- jQuery Library -->
+<script src="assets/call-layout.js"></script>
+<!-- Click To Call Style3 JS Library  (required) -->
+<script src="assets/call-style3.js"></script>
+
 </body>
 </html>
