@@ -211,8 +211,9 @@ h1, h2, h3 {
 }
 
 .quote .hero-content p {
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: clamp(3.5rem, 4vw, 2.5rem);
   font-weight: 600;
+  margin-bottom: 2em;
 }
 
 /* ===== CAROUSEL ===== */
@@ -364,7 +365,10 @@ h1, h2, h3 {
 
 .footer__grid {
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .footer h3 {
@@ -378,6 +382,7 @@ h1, h2, h3 {
   font-family: 'Poiret One';
   color: var(--brown);
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 li::marker {
