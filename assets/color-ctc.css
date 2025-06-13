@@ -28,7 +28,7 @@ Released On: 8, Sep 2019
     Click To Call Main Layout CSS
 ====================================================*/
 .layout .layout-features i{
-    color: #2D2D2D;
+    color: #556B2F;
 }
 .layout .layout-funcation .layout-funcation-odd{
     background: #eee;
@@ -37,11 +37,11 @@ Released On: 8, Sep 2019
 /* Common CSS */
 .layout .title,
 .layout .wrapper .div-dot:after{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .layout .layout-heading h2,
 .layout .layout-heading p{
@@ -68,11 +68,11 @@ Released On: 8, Sep 2019
     Click To Call Sidebar Togle CSS (Left Slide Panel)
 ====================================================*/
 .cc-header{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 
 /* Common CSS */
@@ -82,7 +82,7 @@ Released On: 8, Sep 2019
 }
 .cc-setting .icon i,
 .cc-setting .link a:hover{
-    color: #2D2D2D;
+    color: #556B2F;
 }
 
 
@@ -93,25 +93,25 @@ Released On: 8, Sep 2019
     color: #444;
 }
 .cc-dropdown .new-select .selection{
-    border: 1px solid #2D2D2D;
+    border: 1px solid #556B2F;
 }
 .cc-dropdown .new-select .selection:hover p, 
 .cc-dropdown .new-select .selection.open p{
     color: #383838;
 }
 .cc-dropdown .new-select .selection > span{
-    border-color: #2D2D2D transparent transparent transparent;
+    border-color: #556B2F transparent transparent transparent;
 }
 .cc-dropdown .new-select .selection.open > span{
     border-color: transparent transparent #bbb transparent;
 }
 .cc-dropdown .new-option.reveal:hover{
     color: #f5f5f5;
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);    
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);    
 }
 
 /* Common CSS */
@@ -132,11 +132,11 @@ Released On: 8, Sep 2019
 .cc-style1 .cc-footer .cc-call-button:before,
 .cc-style1 .cc-footer .cc-call-button:hover:before,
 .cc-style1 .cc-button{
-	background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+	background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style1 .cc-body p,
 .cc-style1 .cc-footer .cc-call-button span{
@@ -158,7 +158,7 @@ Released On: 8, Sep 2019
 @media only screen and (max-width: 768px){
     
     .cc-style1 .cc-footer .cc-call-button:before{
-        background: linear-gradient(to right, #636262, #2D2D2D);
+        background: linear-gradient(to right, #8FA66B, #556B2F);
     }
 }
 
@@ -170,14 +170,14 @@ Released On: 8, Sep 2019
     Start Click To Call Style2 CSS
 ====================================================*/
 .cc-style2 .cc-panel .cc-button{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style2 .cc-panel .cc-list{
-    border: 2px solid #2D2D2D;
+    border: 2px solid #556B2F;
 }
 .cc-style2 .cc-panel .cc-list img{
     background: #fff;
@@ -196,7 +196,7 @@ Released On: 8, Sep 2019
     Start Click To Call Style3 CSS
 ====================================================*/
 .cc-style3 .cc-button i{
-    color: #2D2D2D;
+    color: #556B2F;
 }
 .cc-style3 .cc-panel,
 .cc-style3 .cc-button{
@@ -207,11 +207,11 @@ Released On: 8, Sep 2019
 .cc-style3 .cc-panel .cc-header,
 .cc-style3 .cc-footer .cc-call-button,
 .cc-style3 .cc-footer2 .cc-call-button{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style3 .cc-body p{
     color: #3c3c3c;
@@ -219,7 +219,7 @@ Released On: 8, Sep 2019
 .cc-style3 .cc-panel .cc-header,
 .cc-style3 .cc-footer .cc-call-button,
 .cc-style3 .cc-footer2 .cc-call-button{
-    color: #BDA87F;
+    color: #000;
 }
 /*==================================================
     End Click To Call Style3 CSS
@@ -244,11 +244,11 @@ Released On: 8, Sep 2019
 .cc-style4 .cc-panel .cc-header,
 .cc-style4 .cc-footer .cc-call-button,
 .cc-style4 .cc-button{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /*==================================================
     End Click To Call Style4 CSS
@@ -258,17 +258,17 @@ Released On: 8, Sep 2019
     Start Click To Call Style5 CSS
 ====================================================*/
 .cc-style5 .cc-list .cc-online{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style5 .cc-list .cc-offline{
     background-color: #b1b1b1;
 }
 .cc-style5 .cc-list .cc-user-img{
-    border: 2px solid #2D2D2D;
+    border: 2px solid #556B2F;
 }
 .cc-style5 .cc-list:hover strong{
     color: #383838;
@@ -298,11 +298,11 @@ Released On: 8, Sep 2019
 .cc-style6 .cc-header img,
 .cc-style6 .cc-footer .cc-call-button,
 .cc-style6 .cc-button{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style6 .cc-body p{
     color: #3c3c3c;
@@ -327,11 +327,11 @@ Released On: 8, Sep 2019
 .cc-style7 .cc-header,
 .cc-style7 .cc-button,
 .cc-style7 .cc-footer .cc-list{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style7 .cc-panel,
 .cc-style7 .cc-content .cc-bubble,
@@ -353,7 +353,7 @@ Released On: 8, Sep 2019
     Start Click To Call Style8 CSS
 ====================================================*/
 .cc-style8 .cc-list .cc-user-img{
-    border: 2px solid #2D2D2D;
+    border: 2px solid #556B2F;
 }
 
 /* Common CSS */
@@ -364,11 +364,11 @@ Released On: 8, Sep 2019
 .cc-style8 .cc-panel .cc-button,
 .cc-style8 .cc-list .cc-user-img,
 .cc-style8 .cc-list .cc-user-info{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /*==================================================
     End Click To Call Style8 CSS
@@ -384,11 +384,11 @@ Released On: 8, Sep 2019
 /* Common CSS */
 .cc-style9:after,
 .cc-style9 .cc-button{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /*==================================================
     End Click To Call Style9 CSS
@@ -408,11 +408,11 @@ Released On: 8, Sep 2019
 .cc-style10 .cc-button1:before,
 .cc-style10 .cc-button1:after,
 .cc-style10 .cc-button1:hover{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /* End Click To Call Button Style 1 */
 
@@ -423,22 +423,22 @@ Released On: 8, Sep 2019
 .cc-style10 .cc-button2 .cc-chat-icon i,
 .cc-style10 .cc-button2 p{
     color: #fff;    
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /* End Click To Call Button Style 2 */
 
 /* Start Click To Call Button Style 3 */
 .cc-style10 .cc-button3{
     border: 2px solid #fff;    
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 .cc-style10 .cc-button3 i,
 .cc-style10 .cc-button3 span{
@@ -451,7 +451,7 @@ Released On: 8, Sep 2019
     background: #fff;
 }
 .cc-style10 .cc-button4:hover span{
-    color: #2D2D2D;
+    color: #556B2F;
 }
 .cc-style10 .cc-button4 span,
 .cc-style10 .cc-button4 .fa-phone{
@@ -459,11 +459,11 @@ Released On: 8, Sep 2019
 }
 .cc-style10 .cc-button4,
 .cc-style10 .cc-button4 .fa-phone{
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /* End Click To Call Button Style 4 */
 
@@ -474,11 +474,11 @@ Released On: 8, Sep 2019
 .cc-style10 .cc-button5 i,
 .cc-style10 .cc-button5 .fa-whatsapp{
     color: #fff;    
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /* End Click To Call Button Style 5 */
 
@@ -486,23 +486,23 @@ Released On: 8, Sep 2019
 .cc-style10 .cc-button6 i{
     color: #fff;    
     border: 2px solid #fff;
-    background: -webkit-linear-gradient(to right, #636262, #2D2D2D);
-    background: -moz-linear-gradient(to right, #636262, #2D2D2D);
-    background: -ms-linear-gradient(to right, #636262, #2D2D2D);
-    background: -o-linear-gradient(to right, #636262, #2D2D2D);
-    background: linear-gradient(to right, #636262, #2D2D2D);
+    background: -webkit-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -moz-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -ms-linear-gradient(to right, #8FA66B, #556B2F);
+    background: -o-linear-gradient(to right, #8FA66B, #556B2F);
+    background: linear-gradient(to right, #8FA66B, #556B2F);
 }
 /* End Click To Call Button Style 6 */
 
 /* Start Click To Call Button Style 7 */
 .cc-style10 .cc-button7 a{
-    background: #2D2D2D;
+    background: #556B2F;
 }
 .cc-style10 .cc-button7:hover a{
     background: transparent;
 }
 .cc-style10 .cc-button7 a img{
-    border: 2px solid #2D2D2D;
+    border: 2px solid #556B2F;
 }
 .cc-style10 .cc-button7:before, 
 .cc-style10 .cc-button7:after {

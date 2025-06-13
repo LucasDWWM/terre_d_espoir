@@ -68,15 +68,16 @@ Released On: 8, Sep 2019
 .cc-style3 .cc-header h2{
 	padding-top: 5px;
 	margin-bottom: 0;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 30px;
-	color: #BDA87F;
+	color: #000;
 }
 .cc-style3 .cc-header p{
 	margin-bottom: 0;
 	font-size: 13px;
-	color: #BDA87F;
+	font-weight: bold;
+	color: #000;
 }
 
 /* Floating Panel Body */
