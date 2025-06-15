@@ -245,6 +245,11 @@ h1, h2, h3 {
   display: block;
 }
 
+.carousel-item:nth-child(3) img {
+  object-position: 20%;
+}
+
+
 
 .carousel-item {
   position: relative;
