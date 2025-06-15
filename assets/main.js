@@ -1,17 +1,18 @@
-  /* ===== MENU MOBILE ===== */
-  const navToggle = document.querySelector('.nav-toggle');
-  const navMobile = document.querySelector('.nav-mobile');
-  navToggle.addEventListener('click', () =>
-    navMobile.classList.toggle('hidden')
-  );
+/* ===== MENU MOBILE ===== */
+const navToggle = document.querySelector('.nav-toggle');
+const navMobile = document.querySelector('.nav-mobile');
+navToggle.addEventListener('click', () =>
+  navMobile.classList.toggle('hidden')
+);
 
-  /* ===== CAROUSEL ===== */
-  const track = document.querySelector('.carousel-track');
+/* ===== MULTI CAROUSELS ===== */
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const track = carousel.querySelector('.carousel-track');
   const slides = Array.from(track.children);
-  const dotsContainer = document.querySelector('.dots');
+  const dotsContainer = carousel.querySelector('.dots');
   let currentIndex = 0;
 
-  // create dots
+  // Créer les dots
   slides.forEach((_, i) => {
     const dot = document.createElement('div');
     dot.classList.add('dot');
@@ -29,8 +30,9 @@
     currentIndex = index;
   }
 
-  // auto-play (6 s)
+  // Auto-slide (optionnel)
   setInterval(() => {
-    let next = currentIndex + 1 === slides.length ? 0 : currentIndex + 1;
+    let next = (currentIndex + 1) % slides.length;
     moveToSlide(next);
   }, 6000);
+});
